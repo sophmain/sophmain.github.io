@@ -1,0 +1,47 @@
+.profile-image {
+    width: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.header-img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skill-img{
+    width: 96px;
+    height: 96px;
+    padding: 2px;
+    margin: 0 10px;
+    border-radius: 16px;
+    object-fit: cover;
+    background-color: transparent;
+}
+.devicon-css3-plain-wordmark, .devicon-sequelize-plain, .devicon-flask-original, .devicon-react-original-wordmark, .devicon-redux-original{
+    width: 96px;
+    height: 96px;
+    font-size: 96px;
+    padding: 2px;
+    margin: 10px 10px;
+}
+.section-title{
+    text-align: center;
+    margin: 10px;
+    font-size: 21px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+body.is-mobile.landing #banner {
+    background-image: url('../../images/2020-Feb-Jordan-WadiRum-3.jpg');
+}
+#banner{
+    background-image: url('../../images/2020-Feb-Jordan-WadiRum-3.jpg');
+    background-position: 50% 40%;;
+}
+.about-header{
+margin: 10px 40px;
+}
